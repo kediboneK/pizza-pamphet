@@ -1,0 +1,80 @@
+body {
+    background-color: yellowgreen;
+}
+
+
+@media (min-width: 100px) {
+    .pizzas {
+        display: flex;
+        padding: 2px;
+		margin: 1px;
+		border-radius: 2px;
+        justify-content: space-evenly;
+		background-color: orange
+    }
+}
+.flexbox-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+
+}
+ 
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px  solid yellow;
+    background-color: azure;
+
+}
+
+.flexbox-chickenPizza{
+    min-height: 200px;
+    width: 292.15px;
+    height: 403.69px;
+
+    background: #E2AE3D;
+
+}
+
+.flexbox-lemonPizza{
+    min-height: 200px;
+    width: 299.45px;
+    height: 403.69px;
+
+    background: #E06733;;
+
+}
+
+.flexbox-pepperPizza{
+    min-height: 200px;
+    width: 292.15px;
+    height: 403.69px;
+    
+    background: #E03571
+
+}
+
+.contact details {
+    border: 2px solid grey;
+    padding: 1em;
+	margin: 1em;
+	border-radius: 1em;
+	background-color: coral;
+    text-align: center;
+
+}
+
+.address{
+    display: flex;
+
+}
+.location{
+    margin-left: auto;
+    
+}
+
+
+
+
